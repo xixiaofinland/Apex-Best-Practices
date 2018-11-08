@@ -6,9 +6,9 @@
 
 As Apex programmers, we need to give names everywhere in software, such as variables, functions, classes, parameters, triggers etc.. We do so much of it, yet few of us consider it important.
 
-Either good names or bad names, computers don't really care. They execute regardless how things are named. This gives programmers execuses to not put good names. After all, the program runs as expected, why to do the extra?
+This gives programmers execuses to not put good names. Either good names or bad names, computers don't really care. They execute regardless how things are named. After all, the program runs as expected, why to do the extra?
 
-In addition, in many situations customers of your software do not have the proper skill to review your code. Their acceptance test is "it works". Because of this, many programmers aim for "working", instead of "being clean and tidy".
+Another execuse, in many situations customers of your software do not have the proper skill to review your code. Their acceptance test is "it works". Because of this, many programmers aim for "working", instead of "being clean and tidy".
 
 This is wrong. Why is it wrong? Simple. Because softwares are expensive to create and tend to have a long lifespan, like decades. The software are reviewed, maintained, and extended by people, including yourself! In another word, we are crafting programs first for people, then for computers. People go first, no exception. The easier it is to understand what your software is doing, the more appeciation, you get for long.
 
