@@ -68,7 +68,7 @@ public static List<Integer> removeUnderAge(List<Integer> customerAges){
 }
 ```
 
-A even better solution is to have a `Customer` class with the `age` integer property.
+An even better solution is to have a `Customer` class with the `age` integer property.
 
 ### No disinformation
 
