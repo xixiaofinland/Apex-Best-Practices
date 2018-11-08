@@ -108,7 +108,7 @@ Many names are too broad, it'd be better to restrict and show the context to the
 Integer age;
 ```
 
-Though better that `a`, `Age` is still a very general naming in the above example. Age for what? it doesn't tell. `customerAge` instead windows down the scope and specifies the domain.
+Though better than `a`, `Age` is still a very general naming in the above example. Age for what? it doesn't tell. `customerAge` instead windows down the scope and specifies the domain.
 
 ## Apex namings
 
@@ -125,9 +125,9 @@ List<id> accountId; //bad; need to be plural;
 
 2. For `Map`
 
-- use `[value]by[key]` in the middle. Somebody uses `to`, which is fine too.
-- Do not use plural for the key part.
-- Do not use plural for the value part unless it is a `List`.
+- use `[key-part]by[value-part]` pattern, a `by` in the middle. Somebody uses `to`, which is fine too.
+- Do not use plural for the `key part`.
+- Do not use plural for the `value part` unless it is a `List`.
 - Give meaningful context for the Id if it relates to objects other than the value.
 
 ```java
