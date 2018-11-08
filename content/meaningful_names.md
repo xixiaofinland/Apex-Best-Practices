@@ -6,9 +6,15 @@
 
 As Apex programmers, we need to give names everywhere in software, such as variables, functions, classes, parameters, triggers etc.. We do so much of it, yet few of us consider it important.
 
-This gives programmers execuses to not put good names. Either good names or bad names, computers don't really care. They execute regardless how things are named. After all, the program runs as expected, why to do the extra?
+## Execuse one
 
-Another execuse, in many situations customers of your software do not have the proper skill to review your code. Their acceptance test is "it works". Because of this, many programmers aim for "working", instead of "being clean and tidy".
+Either good names or bad names, computers don't really care. They execute regardless how things are named. After all, the program runs as expected, why to do the extra?
+
+## Execuse two
+
+In many situations customers of your software do not have the proper skill to review your code. Their acceptance test is "it works". Because of this, many programmers aim for "working", instead of "being clean and tidy".
+
+## Give meaningful names
 
 This is wrong. Why is it wrong? Simple. Because softwares are expensive to create and tend to have a long lifespan, like decades. The software are reviewed, maintained, and extended by people, including yourself! In another word, we are crafting programs first for people, then for computers. People go first, no exception. The easier it is to understand what your software is doing, the more appeciation, you get for long.
 
@@ -21,7 +27,7 @@ Professional programmers know the criticality of giving good names and are willi
 - Consistent per concept
 - With meanful context
 
-## Intention-revealing
+### Intention-revealing
 
 As the title says, the name reveals what it is.
 
@@ -64,7 +70,7 @@ public static List<Integer> removeUnderAge(List<Integer> customerAges){
 
 A even better solution is to have a `Customer` class with the `age` integer property.
 
-## No disinformation
+### No disinformation
 
 If the thing under the name is not something or does not do something, do NOT put that disinformation in, refactoring it immediately.
 
@@ -89,11 +95,11 @@ Disinformation drives people misunderstand the code. But nobody makes names perf
 
 What we do is we create names, implement the logic, read it back, refactoring.
 
-## Consistant per concept
+### Consistant per concept
 
 Same concept should always use the same keyword. For instance, pick one from `fetch`, `get`, and `retrieve`, stick to it in the entire software.
 
-## With meaningful context
+### With meaningful context
 
 Many names are too broad, it'd be better to restrict and show the context to the readers.
 
