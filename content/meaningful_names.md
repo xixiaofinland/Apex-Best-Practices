@@ -16,7 +16,7 @@ In many situations customers of your software do not have the proper skill to re
 
 ## Give meaningful names
 
-This is wrong. Why is it wrong? Simple. Because softwares are expensive to create and tend to have a long lifespan, like decades. The software are reviewed, maintained, and extended by people, including yourself! In another word, we are crafting programs first for people, then for computers. People go first, no exception. The easier it is to understand what your software is doing, the more appeciation, you get for long.
+It is wrong to pay no attention to naming. Why is it wrong? Simple. Because softwares are expensive to create and tend to have a long lifespan, like decades. The software are reviewed, maintained, and extended by people, including yourself! In another word, we are crafting programs first for people, then for computers. People go first, no exception. The easier it is to understand what your software is doing, the more appeciation, you get for long.
 
 Professional programmers know the criticality of giving good names and are willing to spend time to think, pick, repick, repick (again) names to improve the readability. Do practice your skill on naming stuff from now on. it pays off soon.
 
