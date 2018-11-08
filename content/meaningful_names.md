@@ -102,6 +102,38 @@ Integer age;
 
 Though better that `a`, `Age` is still a very general naming in the above example. Age for what? it doesn't tell. `customerAge` instead windows down the scope and specifies the domain.
 
+## Apex namings
+
+In apex, `Map`, `List`, and `Set` are used a lot. Here are my naming rules to share for your consideration.
+
+1. For `List` and `Set`, use plural names. Do not use `list` or `set` suffix, because in modern editors types can easily traced.
+
+```java
+List<id> accountIds; //good;
+
+List<id> accountIdList; //bad; remove `list`;
+List<id> accountId; //bad; need to be plural;
+```
+
+2. For `Map`
+
+- use `[value]by[key]` in the middle. Somebody uses `to`, which is fine too.
+- Do not use plural for the key part.
+- Do not use plural for the value part unless it is a `List`.
+- Give meaningful context for the Id if it relates to objects other than the value.
+
+```java
+Map<Id, Account__c> IdToAccount; //good though not my way;
+
+Map<Id, Account__c> accountById; //good;
+Map<Id, List<Account__c>> accountsById; //good;
+Map<Id, Account__c> accountByOpportunityId; //good;
+
+Map<Id, Account__c> accounts; //bad;
+Map<Id, Account__c> accountMap; //bad;
+Map<Id, Account__c> accountByIdMap; //bad;
+```
+
 ## Final words
 
 Choose a descrptive, to-the-point, and concise name is difficult, especially for non-native English speakers. But this is more of an attitude rather than technical issue. We all see English native prgorammers with aweful naming skills.
