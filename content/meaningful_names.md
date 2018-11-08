@@ -1,6 +1,8 @@
 # Meaningful Names
 
->There are only two hard things in Computer Science: cache invalidation and naming things. -- Phil Karlton
+>There are only two hard things in Computer Science: cache invalidation and naming things.
+
+>-- Phil Karlton
 
 As Apex programmers, we need to give names everywhere in software, such as variables, functions, classes, parameters, triggers etc.. We do so much of it, yet few of us consider it important.
 
