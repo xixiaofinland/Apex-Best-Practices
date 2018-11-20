@@ -146,7 +146,7 @@ Map<Id, Account__c> accountByIdMap; //bad;
 
 Choose a descrptive, to-the-point, and concise name is difficult, especially for non-native English speakers. But this is more of an attitude rather than technical issue. We all see English native prgorammers with aweful naming skills.
 
-Don't leave a reading mess for others, this is unprofessional. Think about how much you are appreciated when readers intepret your intention in the software like reading an English articles, with a big smile on the face.
+Don't leave a reading mess for others, this is unprofessional. Think about how much you are appreciated when readers intepret your intention in the software like reading prose, with a big smile on the face.
 
 To learn more about good namings, go and read Robert C. Martin's book [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882).
 

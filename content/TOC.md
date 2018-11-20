@@ -18,6 +18,8 @@
 
 [Platforms]()
 
+[Code Architecture](./architecture.md)
+
 [Time Pressured Situations]()
 
 [Successive Refinement]()
