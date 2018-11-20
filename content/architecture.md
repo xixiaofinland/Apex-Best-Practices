@@ -26,4 +26,32 @@ The benefits of having a service layer are:
 
 - create a hard bundary between caller and business logic.
 - allow to easily reuse the same service functions across callers as service layer is agnostic and unbiased.
-- programmers know where to look for the entry point and extend functionality.
+- programmers know where to look for the entry point and extend when needed.
+
+Subtle things to consider when constructing service layer:
+
+#### bulkify the function
+
+Rule number 1 in Apex programming is always to consider bulkification.
+
+However, it is not a fixed guideline for the service layer. When callers do not realistically require bulkification or the bulkification implementation is overly expensive with little functional benefit, it is alright to deal with single record.
+
+#### enforce sharing rules
+
+Service layer encapsulate business logics, thus the default concern should be to enforce sharing rules.
+
+#### SObjects as parameters
+
+Use `Set<Id>` instead of SObjects.
+This allows business logic to fetch fields by Ids as they want.
+`Set` is also better than `List` because of the duplication concern.
+
+#### Transaction management
+
+If the business logic behind service layer fails/throws exception, any work done should be rolled back.
+
+One way of implementing this is to use `SavePoint` and `try catch` block.
+
+Another better way is to use `Unit Of Work` pattern introduced by Andrew's book.
+
+####
