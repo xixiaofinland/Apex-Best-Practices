@@ -6,6 +6,10 @@ I have seen many programmers proclaiming that we don't need to think about archi
 
 Here is my opinion. Unless you are 100% sure that you are creating throw-away tryout code, always bear in mind with the architecture for day one. Always.
 
+Well thought code architecture organize code like things in this piecture.
+
+![architecture](./img/clean-toy-closet.jpg "architecture")
+
 ## Seperation of Concerns
 
 Seperation of concerns is a design pattern that was introduced by Martin Fowler, and has been well implemented and open sourced by financeforce.com.
